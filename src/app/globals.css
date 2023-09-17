@@ -25,3 +25,63 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+span.vdivider {
+  border-style: solid ;
+  border-width: 3px;
+  border-color: black;
+  padding: 0px;
+  margin-top: 0px;
+  height: 40px;
+
+}
+div.vdivider {
+  border-style: solid ;
+  border-width: 3px;
+  border-color: black;
+  padding: 0px;
+  margin-top: 0px;
+  display: inline;
+  width: 6px;
+  height: 30px;
+}
+
+div.hdivider {
+  border-style: solid ;
+  border-width: 3px;
+  border-color: black;
+  padding: 0px;
+  margin-top: 0px;
+  display: inline;
+  width: 372px;
+  height: 6px;
+
+}
+
+div.inputrow {
+  max-height: 45px;
+  padding: 0px;
+  margin: 0px;
+  display:block;
+}
+
+input.numberinput {
+  width: 40px;
+  height: 40px;
+  align-content: center;
+  text-align: center;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: large;
+}
+
+input.answered {
+  color: blue;
+  font-weight: bold;
+}
+
+button.solver {
+  border-width: 3px;
+  border-style: solid;
+
+}
